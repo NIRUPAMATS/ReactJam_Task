@@ -6,20 +6,20 @@ const App=()=>{
 
   const increase=()=>{
     if(number===30)return
-    const newTemp=number+1
-    if(newTemp>=15){
+    const newNumber=number+1
+    if(newNumber>=15){
       setColour('red')
     }
-    setnumber(newTemp)
+    setnumber(newNumber)
   }
   const decrease=()=>{
     if(number===-10)return
-    const newTemp=number-1
-    if(newTemp<15){
+    const newNumber=number-1
+    if(newNumber<15){
       setColour('blue')
     }
     
-    setnumber(newTemp)
+    setnumber(newNumber)
   }
 
   return <div className='app-container'>
